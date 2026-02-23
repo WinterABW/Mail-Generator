@@ -2,8 +2,7 @@ FROM oven/bun:1-alpine
 
 WORKDIR /app
 
-COPY backend/package.json ./
-COPY backend/tsconfig.json ./
+COPY backend/package.json backend/tsconfig.json ./
 
 RUN bun install
 
