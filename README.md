@@ -1,4 +1,4 @@
-# Temporary Email API
+ # Temporary Email API
 
 API REST para generar emails temporales usando Guerrilla Mail. Permite crear, gestionar y eliminar emails temporales con autenticación JWT.
 
